@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 12px;
+}
+
 html,
 body {
   height: 100%;
@@ -81,7 +85,7 @@ button {
 }
 
 .header-hero {
-  font-size: 48px;
+  font-size: 4rem;
 }
 
 .text-hero {
@@ -99,4 +103,36 @@ button {
   background-color: #3882f6;
   color: #fff;
   cursor: pointer;
+}
+
+.section-info {
+  height: 450px;
+  padding: 30px 320px;
+}
+
+.container-info {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 16px;
+  color: #1f2937;
+}
+
+.header-info {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.image-info {
+  width: 200px;
+  text-align: center;
+}
+
+.frame-info {
+  border: 3px solid #3882f6;
+  height: 125px;
+  width: 125px;
+  margin: 0 auto 12px;
+  border-radius: 12px;
 }

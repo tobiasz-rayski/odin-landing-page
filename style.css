@@ -50,6 +50,7 @@ button {
   list-style-type: none;
   display: flex;
   gap: 14px;
+  font-size: 1.5rem;
 }
 
 .nav-links a {
@@ -100,6 +101,7 @@ button {
   width: 120px;
   height: 45px;
   font-weight: 500;
+  font-size: 1.5rem;
   background-color: #3882f6;
   color: #fff;
   cursor: pointer;
@@ -107,7 +109,7 @@ button {
 
 .section-info {
   height: 450px;
-  padding: 30px 320px;
+  padding: 50px 320px;
 }
 
 .container-info {
@@ -135,4 +137,26 @@ button {
   width: 125px;
   margin: 0 auto 12px;
   border-radius: 12px;
+}
+
+.section-quote {
+  display: flex;
+  justify-content: center;
+  padding: 100px 320px;
+  background: #e5e7eb;
+}
+
+.container-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.signature-quote {
+  font-size: 2rem;
+  align-self: flex-end;
 }
